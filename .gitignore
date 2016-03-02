@@ -1,0 +1,4 @@
+*.pyc
+.tox
+junit-*.xml
+borealis.egg-info
