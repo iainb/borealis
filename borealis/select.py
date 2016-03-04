@@ -34,7 +34,6 @@ def query_cursor_paging(url, collection, args):
 
         prev_cursorMark = next_cursorMark
         next_cursorMark = r['nextCursorMark']
-        print 'QTime', r['responseHeader']['QTime']
         yield r['response']['docs']
 
 
